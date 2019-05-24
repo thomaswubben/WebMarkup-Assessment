@@ -1,0 +1,202 @@
+body {
+	font-family: Trebuchet MS, Trebuchet MS, sans-serif;
+	padding: 0;
+	margin: 0 auto;
+	font-size: 15pt;
+}
+
+h1 {
+	font-size: 35pt;
+}
+
+h1, h2 {
+	font-size: 25pt;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header **/
+
+
+header {
+	background-color: #F5F5F5;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+header h1, h2 {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+header h1 {
+	padding: 0.5em 0.25em 0.5em 0.5em;
+	font-size: 35pt;
+	font-weight: 900;
+}
+
+header h2 {
+	font-size: 25pt;
+	font-weight: 400;
+	color: #2699FB;
+	font-style: italic;
+}
+
+header a {
+	color: #444444;
+}
+
+/* Nav **/
+
+nav {
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav ul {	
+	list-style-type: none;
+	background-color: #707070;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	width: 5em;
+	text-align: center;
+	padding: 1em;
+	margin: 0;
+}
+
+nav li a {
+	color: #FFFFFF;
+}
+
+nav li:hover {
+	background-color: #444444;
+}
+
+/* Video **/
+
+video {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* main **/
+
+main {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #AAAAAA;
+	overflow: auto;
+}
+
+main h2, h1{
+	padding: 0;
+	margin: 0;
+	font-size: 25pt;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #F5F5F5;
+}
+
+aside h2 {
+	font-weight: 100;
+	color: #444444;
+}
+
+.main-content {
+	float: left;
+	width: 62%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #F5F5F5;
+}
+
+/* content **/
+
+.par1{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+}
+
+.par1 article {
+	float: left;
+	width: 60%;
+}
+
+.par1 img {
+	float: right;
+	width: 35%;
+	padding: 5% 0 5% 5%;
+}
+
+/* par2 **/
+
+.par2 {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+}
+
+.par2 article {
+	float: right;
+	width: 60%;
+}
+
+.par2 img {
+	float: left;
+	width: 35%;
+	padding: 5% 5% 5% 0;
+}
+
+/* contact **/
+
+form {
+	background-color: #F5F5F5;
+	padding: 2.5%;
+	margin: 2.5%;
+}
+
+fieldset {
+	width: 50%;
+	margin: 0 auto;
+	
+}
+
+input, textarea {
+	width: 100%;
+}
+
+/* footer **/
+
+footer {
+	background-color: #F5F5F5;
+	width: 80%;
+	margin: 0 auto;
+}
+
+footer p {
+	margin: 0;
+	padding: 0.5em;
+}
+
+
+
+
+

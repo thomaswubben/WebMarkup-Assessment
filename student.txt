@@ -1,0 +1,3 @@
+student name : Thomas Wubben
+student number : 642720
+student class : INF1fa
