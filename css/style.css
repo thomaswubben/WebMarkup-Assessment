@@ -232,12 +232,12 @@ footer {
 	background-color: #F5F5F5;
 	width: 80%;
 	margin: 0 auto;
-	margin-bottom: 2.5em;
 }
 
 footer p {
-	margin: 0;
+	display: block;
 	padding: 0.5em;
+	margin: 0;
 }
 
 
