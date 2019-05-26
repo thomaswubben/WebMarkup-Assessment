@@ -112,17 +112,19 @@ aside {
 	background-color: #F5F5F5;
 }
 
-aside h2 {
-	font-weight: 100;
-	color: #444444;
-}
-
 .main-content {
 	float: left;
 	width: 62%;
 	margin: 1%;
 	padding: 1%;
 	background-color: #F5F5F5;
+}
+
+/* aside **/
+
+aside h2 {
+	font-weight: 100;
+	color: #444444;
 }
 
 /* content **/
@@ -144,8 +146,6 @@ aside h2 {
 	width: 35%;
 	padding: 5% 0 5% 5%;
 }
-
-/* par2 **/
 
 .par2 {
 	padding: 0;
@@ -182,6 +182,30 @@ fieldset {
 input, textarea {
 	width: 100%;
 }
+
+/* sports **/
+
+#list {
+	float: left;
+	width: 62%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #F5F5F5;
+}
+
+#list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+img {
+	height: 10%;
+	width: 10%;
+	float: left;
+	padding-right: 1%;
+}
+
+
 
 /* footer **/
 
