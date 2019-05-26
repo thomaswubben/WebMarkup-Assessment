@@ -1,12 +1,13 @@
-body {
-	font-family: Trebuchet MS, Trebuchet MS, sans-serif;
-	padding: 0;
-	margin: 0 auto;
-	font-size: 15pt;
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
 }
 
-h1 {
-	font-size: 35pt;
+body {
+	font-family: Roboto, Trebuchet MS, sans-serif;
+	font-size: 15pt;
+	margin: 0;
+	color: #000000;
 }
 
 h1, h2 {
@@ -15,6 +16,10 @@ h1, h2 {
 
 a {
 	text-decoration: none;
+}
+
+ul {
+	list-style: none;
 }
 
 /* Header **/
@@ -27,16 +32,11 @@ header {
 	padding: 0;
 }
 
-header h1, h2 {
-	margin: 0;
-	padding: 0;
-	display: inline-block;
-}
-
 header h1 {
-	padding: 0.5em 0.25em 0.5em 0.5em;
 	font-size: 35pt;
 	font-weight: 900;
+	padding: 0.5em 0.25em;
+	display: inline-block;
 }
 
 header h2 {
@@ -44,6 +44,7 @@ header h2 {
 	font-weight: 400;
 	color: #2699FB;
 	font-style: italic;
+	display: inline-block;
 }
 
 header a {
@@ -66,13 +67,12 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	width: 5em;
 	text-align: center;
 	padding: 1em;
-	margin: 0;
+	width: 10%;
 }
 
-nav li a {
+nav a {
 	color: #FFFFFF;
 }
 
@@ -95,21 +95,12 @@ main {
 	width: 80%;
 	margin: 0 auto;
 	background-color: #AAAAAA;
-	overflow: auto;
+	overflow: hidden;
 }
 
-main h2, h1{
-	padding: 0;
-	margin: 0;
-	font-size: 25pt;
-}
-
-aside {
-	float: right;
-	width: 30%;
-	margin: 1%;
-	padding: 1%;
-	background-color: #F5F5F5;
+main h2, main h1, main p {
+	margin: 2%;
+	display: block;
 }
 
 .main-content {
@@ -122,6 +113,14 @@ aside {
 
 /* aside **/
 
+aside {
+	float: right;
+	width: 30%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #F5F5F5;
+}
+
 aside h2 {
 	font-weight: 100;
 	color: #444444;
@@ -130,10 +129,10 @@ aside h2 {
 /* content **/
 
 .par1{
-	padding: 0;
-	margin: 0;
 	width: 100%;
-	display: inline-block;
+	display: inline-block;	
+	margin: 0;
+	padding: 0;
 }
 
 .par1 article {
@@ -144,14 +143,14 @@ aside h2 {
 .par1 img {
 	float: right;
 	width: 35%;
-	padding: 5% 0 5% 5%;
+	padding: 2.5%;
 }
 
 .par2 {
-	padding: 0;
-	margin: 0;
 	width: 100%;
 	display: inline-block;
+	margin: 0;
+	padding: 0;
 }
 
 .par2 article {
@@ -162,7 +161,7 @@ aside h2 {
 .par2 img {
 	float: left;
 	width: 35%;
-	padding: 5% 5% 5% 0;
+	padding: 2.5%;
 }
 
 /* contact **/
@@ -185,27 +184,47 @@ input, textarea {
 
 /* sports **/
 
-#list {
-	float: left;
-	width: 62%;
-	margin: 1%;
-	padding: 1%;
-	background-color: #F5F5F5;
-}
-
-#list ul {
+article ul {
     list-style: none;
     padding-left: 0;
 }
 
-img {
+article li {
+	background-color: #F5F5F5;
+	margin-bottom: 1em; 
+}
+
+article img {
 	height: 10%;
 	width: 10%;
 	float: left;
 	padding-right: 1%;
 }
 
+article a {
+	display: inline-block;
+	padding: 0.25em 0.5em;
+	color: #000000;
+}
 
+/* Cookie **/
+
+#cookie {
+	width: 100%;
+	margin: 0 auto;
+	z-index: 1;
+	position: fixed;
+	bottom: 0;
+	padding-left: 10%;
+	background-color: #444444;
+	color: #F5F5F5;
+	opacity: 0.9;
+} 
+
+#cookie h2, p {
+	display: inline;
+	margin-right: 1em;
+}
 
 /* footer **/
 
@@ -213,6 +232,7 @@ footer {
 	background-color: #F5F5F5;
 	width: 80%;
 	margin: 0 auto;
+	margin-bottom: 2.5em;
 }
 
 footer p {
